@@ -1,7 +1,8 @@
 # Site settings
 title: Battalion Theatre
 email: your-email@domain.com
-url: https://example.github.io
+url:  http://dorothythurston.github.io/battalion
+baseurl: ""
 description: "A New York based theatre company dedicated to following the fun to the truth of the human condition and then putting it in front of an audience."
 
 # Color settings (hex-codes without the leading hash-tag)
