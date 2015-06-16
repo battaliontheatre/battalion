@@ -297,19 +297,8 @@ a:focus {
   text-align: left;
 }
 
-.productions-section {
-    width: 100%;
-    padding: 100px 10px 100px 10px;
-    margin-top: 35px;
-    color: #fff;
-    background-color: #696969;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
 
-.productions-section h3  {
+.productions-section h4  {
     text-align: left;
     margin: 0;
     margin-left: 20px;
@@ -321,7 +310,29 @@ a:focus {
     text-align: left;
 }
 
-.gallery-section{
+#current-productions {
+  max-width: 400px;
+  float: left;
+  color: yellow;
+}
+
+#current-productions img {
+  max-width: 300px;
+  border: 2px solid white;
+}
+
+#past-productions {
+  max-width: 400px;
+  float: right;
+  color: grey;
+  margin-left: 10px;
+}
+
+#btn-productions-section {
+  clear: both;
+}
+
+.gallery-section {
     padding-top: 70px;
     padding-bottom: 70px;
 }
@@ -333,7 +344,7 @@ a:focus {
 }
 
 .contact-section h4 {
-    color: #219aa2;
+    color: #8A8A8A;
     margin: 0;
 }
 
@@ -438,7 +449,7 @@ body {
     float: right;
     text-align: center;
     margin-bottom: 10px;
-    background-color: gray;
+    background-color: #4D4D4D;
     border-radius: 10px;
 }
 
