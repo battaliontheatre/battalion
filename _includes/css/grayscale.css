@@ -7,7 +7,7 @@
 body {
     width: 100%;
     height: 100%;
-    font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Verdana, Helvetica, sans-serif;
     color: #fff;
     background-color: {{ site.color.primary-dark }};
 }
@@ -32,7 +32,7 @@ h6 {
 
 p {
     margin: 0 0 25px;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 1.5;
 }
 
@@ -43,7 +43,7 @@ p {
     }
     p {
         margin: 0 0 35px;
-        font-size: 20px;
+        font-size: 14px;
         line-height: 1.6;
     }
 }
@@ -179,6 +179,7 @@ a:focus {
     }
 }
 
+
 .btn-circle {
     width: 70px;
     height: 70px;
@@ -192,6 +193,10 @@ a:focus {
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
+}
+
+.btn {
+  margin-top: 5px;
 }
 
 .btn-circle:hover,
@@ -219,7 +224,7 @@ a:focus {
     -moz-animation-timing-function: linear;
 }
 
-@-webkit-keyframes pulse {    
+@-webkit-keyframes pulse {
     0 {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -236,7 +241,7 @@ a:focus {
     }
 }
 
-@-moz-keyframes pulse {    
+@-moz-keyframes pulse {
     0 {
         -moz-transform: scale(1);
         transform: scale(1);
@@ -256,6 +261,40 @@ a:focus {
 .content-section {
     padding-top: 100px;
     padding-bottom: 100px;
+}
+
+.about-section {
+  font-size: 18px;
+}
+
+.bio {
+  clear: both;
+  padding-top: 30px;
+  margin: 10px;
+}
+
+.bio img {
+  width: 150px;
+  height: 187px;
+  border: 2px solid white;
+  float: left;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.bio-header {
+  text-align: left;
+  margin: 15px;
+}
+
+.bio-text {
+  max-width: 800px;
+  min-width: 300px;
+  padding-top: 5px;
+  padding-left: 20px;
+  overflow: hidden;
+  font-size: 14px;
+  text-align: left;
 }
 
 .productions-section {
