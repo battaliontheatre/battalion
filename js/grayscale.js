@@ -43,6 +43,8 @@ $contactForm.submit(function(e) {
             $contactForm.append('<div class="message-loading">Sending message…</div>');
         },
         success: function(data) {
+            // Reset form with native Javascript
+            $contactForm.get(0).reset();
             $contactForm.append('<div class="message-success">Message sent!</div>');
         },
         error: function(err) {
