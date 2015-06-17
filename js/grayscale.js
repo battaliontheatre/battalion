@@ -34,21 +34,23 @@ var $contactForm = $('#contact-form');
 
 $contactForm.submit(function(e) {
     e.preventDefault();
+    // Remove old messages
+    $('.contact-form-message').remove();
     $.ajax({
         url: '//formspree.io/battaliontheatreco@gmail.com',
         method: 'POST',
         data: $(this).serialize(),
         dataType: 'json',
         beforeSend: function() {
-            $contactForm.append('<div class="message-loading">Sending message…</div>');
+            $contactForm.append('<div class="contact-form-message">Sending message…</div>');
         },
         success: function(data) {
             // Reset form with native Javascript
             $contactForm.get(0).reset();
-            $contactForm.append('<div class="message-success">Message sent!</div>');
+            $contactForm.append('<div class="contact-form-message">Message sent!</div>');
         },
         error: function(err) {
-            $contactForm.append('<div class="message-error">Oops, there was an error.</div>');
+            $contactForm.append('<div class="contact-form-message">Oops, there was an error.</div>');
         }
     });
 });
