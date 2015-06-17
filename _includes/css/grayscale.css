@@ -374,6 +374,11 @@ a:focus {
     margin-bottom: 10px;
     background-color: #4D4D4D;
     border-radius: 10px;
+    color: #696969;
+}
+
+#contact-form h4 {
+  color: white;
 }
 
 #contact-text {

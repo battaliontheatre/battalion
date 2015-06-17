@@ -11,23 +11,22 @@
                     <h4>WORK WITH US</h4>
                     <p>We are always looking for talented stage managers, set designers, lighting designers, and sound technicians. Send your resume and samples of your work (if applicable).</p>
                 </div>
-                <form id="contact-form" action="//formspree.io/your@email.com" method="POST">
+                <form id="contact-form" action="//formspree.io/battaliontheatreco@gmail.com" method="POST">
                     <h4>Contact us</h4>
                     <br>
-                    <input type="text" name="name" placeholder="Your name">
+                    <input type="text" name="name" placeholder="Your name" required>
                     <br>
-                    <input type="text" name="_replyto" placeholder="Your email" />
+                    <input type="email" name="_replyto" placeholder="Your email" required/>
                     <br>
-                    <input type="hidden" name="_next" value="//site.io/thanks.html" />
                     <input type="text" name="_gotcha" style="display:none" />
                     <br>
                     <input type="hidden" name="_subject" value="New submission!" />
                     <br>
-                    <textarea name="message" rows="5" placeholder="Your message"></textarea>
+                    <textarea name="message" rows="5" placeholder="Your message" required></textarea>
                     <br>
                     <input type="submit" value="Send" class="btn btn-default btn-lg">
                 </form>
-                
+
 
                 <ul class="list-inline banner-social-buttons">
                     {% for network in site.social %}
