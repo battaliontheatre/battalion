@@ -37,7 +37,7 @@ $contactForm.submit(function(e) {
     // Remove old messages
     $('.contact-form-message').remove();
     $.ajax({
-        url: '//formspree.io/battaliontheatreco@gmail.com',
+        url: '//formspree.io/battaliontheatre@gmail.com',
         method: 'POST',
         data: $(this).serialize(),
         dataType: 'json',
