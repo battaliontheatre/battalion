@@ -297,45 +297,55 @@ a:focus {
   text-align: left;
 }
 
-
-.productions-section h4  {
-    text-align: left;
+.productions-section p, h4 {
     margin: 0;
-    margin-left: 20px;
 }
 
-.productions-section p {
-    margin: 0;
-    margin-left: 40px;
-    text-align: left;
-}
-
-#current-productions {
+#current-productions-title {
   max-width: 400px;
   margin-left: 30px;
   margin-bottom: 40px;
   float: left;
 }
 
-#current-productions img {
+#current-productions-title img {
   max-width: 300px;
   border: 3px solid white;
 }
 
-#past-productions {
+#current-productions-more-info {
   max-width: 400px;
   float: right;
-  color: grey;
   margin-left: 10px;
   margin-bottom: 40px;
 }
 
-#btn-productions-section {
+#past-productions {
+  max-width: 600px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  clear: both;
+  color: grey;
+}
+
+#tickets-button {
+  background-color: yellow;
+  min-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
   clear: both;
 }
 
-@media(max-width:800px) {
-  #current-productions {
+#tickets-button:hover {
+  background-color: purple;
+  color: white;
+}
+
+@media(max-width:1000px) {
+  #current-productions-title, #current-productions-more-info {
     margin-left: auto;
     margin-right: auto;
     float: none;
