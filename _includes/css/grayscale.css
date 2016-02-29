@@ -327,7 +327,6 @@ a:focus {
   margin-right: auto;
   margin-bottom: 50px;
   clear: both;
-  color: grey;
 }
 
 #tickets-button {
@@ -342,6 +341,20 @@ a:focus {
 #tickets-button:hover {
   background-color: purple;
   color: white;
+}
+
+#donation-button {
+  background-color: purple;
+  color: white;
+  float: center;
+  min-width: 300px;
+  max-width: 400px;
+  clear: both;
+}
+
+#donation-button:hover {
+  background-color: yellow;
+  color: black;
 }
 
 @media(max-width:1000px) {
@@ -403,22 +416,22 @@ a:focus {
       float: none;
   }
 
-    #contact-form {
-        float: none;
-        clear: both;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 40px;
-    }
-
-    #contact-text {
-      text-align: center;
+  #contact-form {
+      float: none;
+      clear: both;
+      display: block;
       margin-left: auto;
       margin-right: auto;
       margin-bottom: 40px;
-      float: none;
-    }
+  }
+
+  #contact-text {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    float: none;
+  }
 }
 
 .btn {
