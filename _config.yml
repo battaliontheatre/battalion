@@ -25,6 +25,12 @@ social:
     url: https://instagram.com/BattalionTheatre
 
 slideshow:
+  - background_image_path: /img/slider/this-is-our-youth.jpg
+    main_heading: THIS IS OUR YOUTH
+    date:  March 10-19, 2016
+    author: Kenneth Lonergan
+    director: Gerrit Thurston
+    location: Dorothy Strelsin Theatre
   - background_image_path: /img/slider/unhealthy.jpg
     main_heading: UNHEALTHY
     date: October 7-24, 2015
